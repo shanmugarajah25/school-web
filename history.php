@@ -2,7 +2,7 @@
 include_once ('includes/header.php');
 ?>
 
-contact
+<h1>history</h1>
 
 <?php
 include_once ('includes/footer.php');

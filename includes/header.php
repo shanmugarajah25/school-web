@@ -28,7 +28,7 @@ require_once ('config.php');
                 <div class="container">
                     <a class="navbar-brand fw-bold" href="<?php echo $baseurl ?>">
                         <span>
-                            Mu/Thannirootu muslim maha vidyalayam
+                            Mu/TMMV
                         </span>
                     </a>
 

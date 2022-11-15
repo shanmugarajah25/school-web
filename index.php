@@ -1,5 +1,5 @@
 <?php
-include_once ('inc/header.php');
+include_once ('includes/header.php');
 ?>
 <div class="row">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -76,5 +76,5 @@ include_once ('inc/header.php');
 
 
 <?php
-include_once ('inc/footer.php');
+include_once ('includes/footer.php');
 ?>

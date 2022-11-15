@@ -1,6 +1,6 @@
 <?php
 
-$baseurl = "http://localhost/php/scl-web/";
+$baseurl = "http://localhost/project/school-web/";
 
 
 ?>

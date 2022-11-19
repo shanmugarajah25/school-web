@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
-
+<?php
+require_once ('config.php');
+?>
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -12,13 +14,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="<?php echo $baseurl ?>assets/css/style.css">
 
 
 </head>
-<?php
-require_once ('config.php');
-?>
+
 
 <body>
 
@@ -43,6 +43,9 @@ require_once ('config.php');
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="<?php echo $baseurl ?>about-us.php">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="<?php echo $baseurl ?>all_events.php">Events</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="<?php echo $baseurl ?>contact-us.php">Contact us</a>

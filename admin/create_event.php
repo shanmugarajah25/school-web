@@ -14,6 +14,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $sql = "INSERT INTO events (title, detail, date, status) VALUES ('$title',  '$detail', '$date','$status')";
       
         $result = $db->query($sql);
+        
         if ($result == TRUE) {
               echo "New record created successfully";
         } else {

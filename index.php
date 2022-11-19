@@ -32,7 +32,7 @@ include_once ('includes/header.php');
     </div>
 </div>
 <div class="row py-3 intro">
-    <div class="col-lg-9 bg-lgh">
+    <div class="col-9">
         <h4 class="text-center fw-bold pt-3">Welcome to Mu/Thannirootu muslim maha vidyalayam</h4>
       <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis temporibus corrupti iusto tenetur eligendi?
         Pariatur, voluptatem deserunt saepe non debitis quasi tempora rerum atque eveniet adipisci itaque repellendus
@@ -46,7 +46,8 @@ include_once ('includes/header.php');
         corrupti totam!</p>
        
     </div>
-    <div class="col-lg-3 text-center">
+    
+    <div class="col-3 text-center">
         <img src="assets/images/user.jpg" alt="" width="60%" class="rounded mx-auto d-block">
         <p><span class="fw-bold">Principal</span> <br> Shanmugarajah</p>
         <p></p>

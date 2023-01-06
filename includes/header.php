@@ -45,8 +45,11 @@ require_once ('config.php');
                                 <a class="nav-link" href="<?php echo $baseurl ?>about-us.php">About us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="<?php echo $baseurl ?>all_events.php">Events</a>
+                                <a class="nav-link" href="<?php echo $baseurl ?>mugavurai.php">Introduction</a>
                             </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" href="<?php //echo $baseurl ?>all_events.php">Events</a>
+                            </li> -->
                             <li class="nav-item">
                                 <a class="nav-link" href="<?php echo $baseurl ?>contact-us.php">Contact us</a>
                             </li>

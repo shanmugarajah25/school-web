@@ -1,6 +1,6 @@
 <?php
 
-$baseurl = "http://localhost/project/school-web/";
+$baseurl = "http://localhost/php/school-web/";
 
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
